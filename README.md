@@ -16,3 +16,7 @@ rails new Rails7Demo -j esbuild
 cd Rails7Demo
 
 rails g controller home index
+
+./bin/bundle add cssbundling-rails
+
+./bin/rails css:install:bootstrap
