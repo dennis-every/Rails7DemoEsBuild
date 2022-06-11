@@ -20,3 +20,7 @@ rails g controller home index
 ./bin/bundle add cssbundling-rails
 
 ./bin/rails css:install:bootstrap
+
+rails g scaffold Post title content:text
+
+rails action_text:install
